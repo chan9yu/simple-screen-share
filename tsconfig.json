@@ -1,0 +1,52 @@
+{
+	"compilerOptions": {
+		/* Projects */
+		"incremental": true,
+
+		/* Language and Environment */
+		"jsx": "preserve",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"moduleDetection": "force",
+		"target": "ES2017",
+		"useDefineForClassFields": true,
+
+		/* Modules */
+		"allowImportingTsExtensions": true,
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"noUncheckedSideEffectImports": true,
+		"paths": { "@/*": ["./src/*"] },
+		"resolveJsonModule": true,
+
+		/* JavaScript Support */
+		"allowJs": true,
+
+		/* Editor Support */
+		"plugins": [{ "name": "next" }],
+
+		/* Emit */
+		"noEmit": true,
+
+		/* Interop Constraints */
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		/* Type Checking */
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+
+		/* Completeness */
+		"skipLibCheck": true
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+	"exclude": ["node_modules"]
+}

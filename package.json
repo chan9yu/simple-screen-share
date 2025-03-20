@@ -1,0 +1,42 @@
+{
+  "name": "simple-screen-share",
+  "private": true,
+  "version": "1.0.0",
+  "description": "🖥️ 원격 화면 공유 웹 서비스",
+  "type": "module",
+  "packageManager": "pnpm@10.6.5",
+  "author": "chan9yu <dev.cgyeo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chan9yu/simple-screen-share"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack -p 3038",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@next/eslint-plugin-next": "^15.2.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.3",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

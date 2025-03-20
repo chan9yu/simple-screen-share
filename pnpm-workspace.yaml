@@ -1,3 +1,5 @@
 onlyBuiltDependencies:
+  - bufferutil
   - lefthook
   - sharp
+  - utf-8-validate
